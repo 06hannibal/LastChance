@@ -794,4 +794,5 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_Qo6Pm-qv4a94gPJcTm7_BdZEQ0RStxIhh0aYgvWMkjvhlvPkdrS0kQhgIQv41BpiaJxkhbLfWw/sync';
+// $config_directories['sync'] = 'sites/default/files/config_Qo6Pm-qv4a94gPJcTm7_BdZEQ0RStxIhh0aYgvWMkjvhlvPkdrS0kQhgIQv41BpiaJxkhbLfWw/sync';
+$config_directories['sync'] = 'sites/default/files/sync';
