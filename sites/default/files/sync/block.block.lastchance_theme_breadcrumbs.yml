@@ -1,0 +1,22 @@
+uuid: 9c72087e-197d-4ef6-8f41-93b794f8e47d
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - lastchance_theme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: lastchance_theme_breadcrumbs
+theme: lastchance_theme
+region: header
+weight: 2
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

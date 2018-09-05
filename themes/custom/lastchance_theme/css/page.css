@@ -1,0 +1,149 @@
+/* line 1, ../sass/page.scss */
+html {
+  background: #333;
+}
+
+/* line 4, ../sass/page.scss */
+body {
+  margin: 0;
+}
+
+/* line 7, ../sass/page.scss */
+header.header {
+  background: #333;
+}
+
+/* line 10, ../sass/page.scss */
+.region-header {
+  height: 59px;
+}
+
+/* line 13, ../sass/page.scss */
+#block-lastchance-theme-main-menu ul.menu li.menu-item, nav#block-lastchance-theme-account-menu ul.menu li.menu-item {
+  list-style-type: none;
+  list-style-image: none;
+  line-height: 50px;
+}
+
+/* line 18, ../sass/page.scss */
+nav#block-lastchance-theme-main-menu ul.menu li a, div#block-lastchance-theme-branding div a, nav#block-lastchance-theme-account-menu ul li a {
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 120%;
+  font-family: "Lucida Grande", Verdana, sans-serif;
+}
+
+/* line 27, ../sass/page.scss */
+nav#block-lastchance-theme-main-menu ul.menu li a:hover, div#block-lastchance-theme-branding div a:hover, nav#block-lastchance-theme-account-menu ul li a:hover {
+  color: #333;
+  text-decoration: none;
+  background: #0074bd;
+}
+
+/* line 32, ../sass/page.scss */
+nav#block-lastchance-theme-main-menu, div#block-lastchance-theme-branding, div.site-name, nav#block-lastchance-theme-account-menu, nav#block-lastchance-theme-account-menu ul.menu li.menu-item {
+  display: inline-block;
+}
+
+/* line 35, ../sass/page.scss */
+nav#block-lastchance-theme-main-menu, div#block-lastchance-theme-branding, div#block-lastchance-theme-branding div.site-name, nav#block-lastchance-theme-account-menu ul li {
+  margin-left: 1%;
+}
+
+/* line 38, ../sass/page.scss */
+nav#block-lastchance-theme-account-menu ul {
+  width: 100%;
+}
+
+/* line 41, ../sass/page.scss */
+div#block-lastchance-theme-branding a.site-logo img {
+  max-width: 10%;
+  position: relative;
+  top: 10px;
+}
+
+/* line 46, ../sass/page.scss */
+nav#block-lastchance-theme-account-menu {
+  float: right;
+  margin-right: 1%;
+}
+
+/* line 50, ../sass/page.scss */
+aside.sidebar {
+  float: left;
+  width: 30%;
+  min-height: 500px;
+  max-height: 1000px;
+  opacity: 1;
+}
+
+/* line 57, ../sass/page.scss */
+section.main-content {
+  min-height: 500px;
+  max-height: 1000px;
+  width: 70%;
+  float: left;
+  opacity: 1;
+}
+
+/* line 64, ../sass/page.scss */
+footer.footer {
+  clear: both;
+  background: #333;
+  margin-top: 0;
+  min-height: 200px;
+  max-height: 400px;
+}
+
+/* line 71, ../sass/page.scss */
+div.region-sidebar, div.region-main-content {
+  margin: 5%;
+}
+
+/* line 74, ../sass/page.scss */
+aside.sidebar div.region div, section.main-content div.region div {
+  margin-bottom: 5%;
+}
+
+/* line 85, ../sass/page.scss */
+section.main.page-night {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg/700px-New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  max-height: 1000px;
+  opacity: 0.7;
+}
+
+/* line 93, ../sass/page.scss */
+section.main.page-morning {
+  background-image: url("https://media.jaa.su/wp-content/uploads/2017/11/02180613/new-york-01.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  max-height: 1000px;
+  opacity: 0.7;
+}
+
+/* line 101, ../sass/page.scss */
+section.main.page-day {
+  background-image: url("https://yeremenko.ua/images/banners/central-park-a-new-york-durante-autunno-1.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  max-height: 1000px;
+  opacity: 0.7;
+}
+
+/* line 109, ../sass/page.scss */
+section.main.page-evening {
+  background-image: url("https://horosho-tam.ru/thumb/1100/pics/94/ad/5a788455f92daa71166dad94/manhattan-skyline-panorama-nyu-yorka.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  max-height: 1000px;
+  opacity: 0.7;
+}

@@ -1,0 +1,22 @@
+uuid: c625c913-6ea3-4c94-a40d-7d159324a489
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - lastchance_theme
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: lastchance_theme_search
+theme: lastchance_theme
+region: sidebar
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

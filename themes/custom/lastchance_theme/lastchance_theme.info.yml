@@ -1,0 +1,19 @@
+name: LastChance
+type: theme
+description: 'Drupal administration theme with modern minimalist design.'
+# core: 8.x
+base theme: seven
+
+libraries:
+  - lastchance_theme/global-styling
+
+regions:
+  header: 'Header'
+  sidebar: 'sidebar'
+  main_content: 'main_content'
+  footer: 'footer'
+
+# Information added by Drupal.org packaging script on 2016-11-30
+core: '8.x'
+project: 'lastchance_theme'
+

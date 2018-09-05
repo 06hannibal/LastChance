@@ -1,0 +1,14 @@
+uuid: 08a15d49-871d-4ad5-97bc-64bcda6b97f4
+name: LastChance
+mail: 06hannibal@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

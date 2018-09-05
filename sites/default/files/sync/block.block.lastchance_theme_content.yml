@@ -1,0 +1,22 @@
+uuid: f3d79e74-44e5-4823-bb74-c450664d005c
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - lastchance_theme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: lastchance_theme_content
+theme: lastchance_theme
+region: header
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

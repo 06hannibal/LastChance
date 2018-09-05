@@ -1,0 +1,20 @@
+uuid: 3e78131b-c9a0-48e7-bf6e-33a0ac2e2b64
+langcode: en
+status: true
+dependencies:
+  theme:
+    - lastchance_theme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: lastchance_theme_page_title
+theme: lastchance_theme
+region: main_content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

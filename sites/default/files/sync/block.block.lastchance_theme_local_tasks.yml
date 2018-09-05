@@ -1,0 +1,22 @@
+uuid: ae218f21-0756-45c1-939b-1669d5e21257
+langcode: en
+status: false
+dependencies:
+  theme:
+    - lastchance_theme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: lastchance_theme_local_tasks
+theme: lastchance_theme
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

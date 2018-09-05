@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the Adminimal theme.
+ */
+
+use Drupal\Component\Utility\Xss;
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_preprocess_HOOK() for HTML document templates.
+ */
+function lastchance_theme_preprocess_html(&$variables) {
+
+  // Add adminimal class to the body.
+  $variables['attributes']['class'][] = 'adminimal';
+
+}
+function lastchance_theme_preprocess_page(&$variables){
+
+  $currdata = date('H');
+
+  switch ($currdata) {
+    case $currdata==0 || $currdata<=4:
+      $variables['night'] ='page-night';
+      break;
+    case $currdata==5 || $currdata<=10:
+      $variables['morning'] ='page-morning';
+      break;
+    case $currdata==11 || $currdata<=16:
+      $variables['day'] ='page-day';
+      break;
+    case $currdata==17 || $currdata<=23:
+      $variables['evening'] ='page-evening';
+      break;
+  }
+}
