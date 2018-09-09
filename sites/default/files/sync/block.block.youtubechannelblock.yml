@@ -1,0 +1,23 @@
+uuid: def868f7-4702-44d3-9316-b61fe4c75600
+langcode: en
+status: true
+dependencies:
+  module:
+    - youtube_channel
+  theme:
+    - lastchance_theme
+id: youtubechannelblock
+theme: lastchance_theme
+region: sidebar
+weight: 0
+provider: null
+plugin: youtube_channel_block
+settings:
+  id: youtube_channel_block
+  label: 'Youtube Channel Block'
+  provider: youtube_channel
+  label_display: '0'
+  youtube_api_key: AIzaSyCaeuIvYu0QlatbsS9PB1lJvC4hck2NqHY
+  youtube_id: UCVnah-S-sByndtg9cHBxlOA
+  youtube_video_limit: '10'
+visibility: {  }
