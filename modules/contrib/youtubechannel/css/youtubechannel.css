@@ -5,6 +5,12 @@
 #youtubechannel-list {
   overflow-y: auto;
 }
+#youtubechannel-list img:first-child {
+  display: block;
+}
+#youtubechannel-list img {
+  display: none;
+}
 
 #youtubechannel-list ul {
   margin: 0;

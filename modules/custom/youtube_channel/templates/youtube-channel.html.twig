@@ -1,0 +1,15 @@
+<div id="youtubechannel-player" style="width:300px; height:150px;">
+	<iframe id="youtubechannel-frame" title="Youtube Video Player" width="300px" height="250px;" src="" frameborder="0" allowfullscreen></iframe>
+</div>
+<div id="youtubechannel-list" style="width:300px; height:300px; margin-top: 30%;">
+	<ul>
+    {% for id in youtubes.content|keys %}
+			<li>
+        <a href="#{{id}}">
+          <img src="{{youtubes.content[id]}}">
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+

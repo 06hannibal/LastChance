@@ -1,5 +1,4 @@
-youtubechannel:
-  version: 1.x
+youtube_channel:
   css:
     theme:
       css/youtube_channel.css: {}

@@ -1,0 +1,7 @@
+name: 'Youtube Custom Channel'
+description: 'subscription to youtube channel.'
+package: Custom
+
+type: module
+# core: 8.x
+core: 8.x
