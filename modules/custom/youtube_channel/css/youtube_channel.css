@@ -1,9 +1,22 @@
 #youtubechannel-player {
     margin-bottom: 10px;
+    width:300px;
+    height:150px;
+}
+.class-overflow {
+    width: 60%;
+    overflow-y: hidden;
+    margin-top: 20%;
+    margin-left: 10%;
+    overflow-x: hidden;
 }
 
 #youtubechannel-list {
     overflow-y: auto;
+    width:200px;
+    height:300px;
+    margin-top: 30%;
+    margin-left: 20%;
 }
 
 #youtubechannel-list ul {
@@ -25,7 +38,7 @@
 
 #youtubechannel-list img {
     border: 1px solid #c3c3c3;
-    height: 55px;
+    height: 100px;
     padding: 2px;
 }
 #channel_url {

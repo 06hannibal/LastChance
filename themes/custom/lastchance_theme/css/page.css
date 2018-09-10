@@ -75,14 +75,14 @@ nav#block-lastchance-theme-account-menu {
 aside.sidebar {
   float: left;
   width: 30%;
-  min-height: 500px;
+  min-height: 800px;
   max-height: 1000px;
   opacity: 1;
 }
 
 /* line 57, ../sass/page.scss */
 section.main-content {
-  min-height: 500px;
+  min-height: 800px;
   max-height: 1000px;
   width: 70%;
   float: left;
@@ -113,7 +113,7 @@ section.main.page-night {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg/700px-New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg");
   background-position: center;
   background-size: cover;
-  min-height: 500px;
+  min-height: 800px;
   max-height: 1000px;
   opacity: 0.7;
 }
@@ -123,7 +123,7 @@ section.main.page-morning {
   background-image: url("https://media.jaa.su/wp-content/uploads/2017/11/02180613/new-york-01.jpg");
   background-position: center;
   background-size: cover;
-  min-height: 500px;
+  min-height: 800px;
   max-height: 1000px;
   opacity: 0.7;
 }
@@ -133,7 +133,7 @@ section.main.page-day {
   background-image: url("https://yeremenko.ua/images/banners/central-park-a-new-york-durante-autunno-1.jpg");
   background-position: center;
   background-size: cover;
-  min-height: 500px;
+  min-height: 800px;
   max-height: 1000px;
   opacity: 0.7;
 }
@@ -143,7 +143,7 @@ section.main.page-evening {
   background-image: url("https://horosho-tam.ru/thumb/1100/pics/94/ad/5a788455f92daa71166dad94/manhattan-skyline-panorama-nyu-yorka.jpg");
   background-position: center;
   background-size: cover;
-  min-height: 500px;
+  min-height: 800px;
   max-height: 1000px;
   opacity: 0.7;
 }
