@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e90871e-dd15-4b79-8b65-71180012a79a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/modules/custom/youtube_channel/css/youtube_channel.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/youtube_channel/css/youtube_channel.css" afterDir="false" />
-    </list>
+    <list default="true" id="2e90871e-dd15-4b79-8b65-71180012a79a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +174,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/custom/youtube_channel/css/youtube_channel.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -194,7 +192,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/custom/youtube_channel/youtube_channel.libraries.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -602,18 +600,18 @@
       <workItem from="1536299530172" duration="31519000" />
       <workItem from="1536337622802" duration="4615000" />
       <workItem from="1536481402921" duration="2552000" />
-      <workItem from="1536562414034" duration="3502000" />
+      <workItem from="1536562414034" duration="3874000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93689000" />
+    <option name="totallyTimeSpent" value="94061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.25373134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.25373134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.5046296" side_tool="true" weight="0.25373134" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -628,7 +626,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5011783" side_tool="true" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.19409938" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.19409938" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -868,13 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/youtube_channel/youtube_channel.libraries.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/youtube_channel/src/Plugin/Block/YoutubeChennelBlock.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -910,6 +901,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/youtube_channel/youtube_channel.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
