@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function registration_menu_theme() {
+
+  return [
+    'registration_menu' => [
+      'variables' => [
+        'form_login' => NULL,
+        'form_registration' => NULL,
+      ],
+    ],
+  ];
+}

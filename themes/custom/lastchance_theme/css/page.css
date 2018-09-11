@@ -26,7 +26,7 @@ header.header {
 }
 
 /* line 18, ../sass/page.scss */
-nav#block-lastchance-theme-main-menu ul.menu li a, div#block-lastchance-theme-branding div a, nav#block-lastchance-theme-account-menu ul li a {
+nav#block-lastchance-theme-main-menu ul.menu li a, div#block-lastchance-theme-branding div a, nav#block-lastchance-theme-account-menu ul li a, nav#block-lastchance-theme-account-menu div.login-user a, nav#block-lastchance-theme-account-menu div.Logout a, nav#block-lastchance-theme-account-menu div.name a {
   color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -37,7 +37,7 @@ nav#block-lastchance-theme-main-menu ul.menu li a, div#block-lastchance-theme-br
 }
 
 /* line 27, ../sass/page.scss */
-nav#block-lastchance-theme-main-menu ul.menu li a:hover, div#block-lastchance-theme-branding div a:hover, nav#block-lastchance-theme-account-menu ul li a:hover {
+nav#block-lastchance-theme-main-menu ul.menu li a:hover, div#block-lastchance-theme-branding div a:hover, nav#block-lastchance-theme-account-menu ul li a:hover, nav#block-lastchance-theme-account-menu div.login-user a:hover, nav#block-lastchance-theme-account-menu div.Logout a:hover, nav#block-lastchance-theme-account-menu div.name a:hover {
   color: #333;
   text-decoration: none;
   background: #0074bd;
@@ -84,12 +84,17 @@ aside.sidebar {
 section.main-content {
   min-height: 800px;
   max-height: 1000px;
-  width: 70%;
+  width: 60%;
   float: left;
   opacity: 1;
 }
 
 /* line 64, ../sass/page.scss */
+main.page-content {
+  margin-bottom: 0px;
+}
+
+/* line 67, ../sass/page.scss */
 footer.footer {
   clear: both;
   background: #333;
@@ -98,17 +103,29 @@ footer.footer {
   max-height: 400px;
 }
 
-/* line 71, ../sass/page.scss */
+/* line 74, ../sass/page.scss */
 div.region-sidebar, div.region-main-content {
   margin: 5%;
 }
 
-/* line 74, ../sass/page.scss */
+/* line 77, ../sass/page.scss */
 aside.sidebar div.region div, section.main-content div.region div {
   margin-bottom: 5%;
 }
 
-/* line 85, ../sass/page.scss */
+/* line 80, ../sass/page.scss */
+.login-user {
+  margin-top: 12%;
+}
+
+/* line 83, ../sass/page.scss */
+.name {
+  position: relative;
+  right: 110%;
+  top: 20px;
+}
+
+/* line 89, ../sass/page.scss */
 section.main.page-night {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg/700px-New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg");
   background-position: center;
@@ -118,7 +135,7 @@ section.main.page-night {
   opacity: 0.7;
 }
 
-/* line 93, ../sass/page.scss */
+/* line 97, ../sass/page.scss */
 section.main.page-morning {
   background-image: url("https://media.jaa.su/wp-content/uploads/2017/11/02180613/new-york-01.jpg");
   background-position: center;
@@ -128,7 +145,7 @@ section.main.page-morning {
   opacity: 0.7;
 }
 
-/* line 101, ../sass/page.scss */
+/* line 105, ../sass/page.scss */
 section.main.page-day {
   background-image: url("https://yeremenko.ua/images/banners/central-park-a-new-york-durante-autunno-1.jpg");
   background-position: center;
@@ -138,7 +155,7 @@ section.main.page-day {
   opacity: 0.7;
 }
 
-/* line 109, ../sass/page.scss */
+/* line 113, ../sass/page.scss */
 section.main.page-evening {
   background-image: url("https://horosho-tam.ru/thumb/1100/pics/94/ad/5a788455f92daa71166dad94/manhattan-skyline-panorama-nyu-yorka.jpg");
   background-position: center;

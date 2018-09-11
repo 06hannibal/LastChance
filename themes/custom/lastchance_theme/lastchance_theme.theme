@@ -5,8 +5,9 @@
  * Functions to support theming in the Adminimal theme.
  */
 
-use Drupal\Component\Utility\Xss;
-use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Link;
+use Drupal\Component\Serialization\Json;
+use Drupal\Core\Url;
 
 /**
  * Implements hook_preprocess_HOOK() for HTML document templates.
@@ -17,6 +18,10 @@ function lastchance_theme_preprocess_html(&$variables) {
   $variables['attributes']['class'][] = 'adminimal';
 
 }
+
+/**
+ * Implements hook_preprocess_page() for HTML document templates.
+ */
 function lastchance_theme_preprocess_page(&$variables){
 
   $currdata = date('H');
@@ -35,4 +40,40 @@ function lastchance_theme_preprocess_page(&$variables){
       $variables['evening'] ='page-evening';
       break;
   }
+}
+
+/**
+ * Implements hook_preprocess_menu__account() for HTML document templates.
+ */
+function lastchance_theme_preprocess_menu__account(&$variables) {
+
+  $uid = \Drupal::currentUser()->id();
+  $name = \Drupal::currentUser()->getAccountName();
+
+  $link_login = 'Log in/Registration';
+
+  $link_logout = 'Log out';
+
+  $login_form = Url::fromRoute('registration_menu.menu');
+  $login_form->setOptions([
+    'attributes' => [
+      'class' => ['use-ajax', 'url'],
+      'data-dialog-type' => 'modal',
+      'data-dialog-options' => Json::encode([
+        'title' => t('Registration Menu'),
+        'width' => 400,
+        'height' => 500,
+      ]),
+    ],
+  ]);
+
+  $login_off = Url::fromRoute('user.logout');
+
+  if(empty($uid)) {
+    $variables['login'] = Link::fromTextAndUrl(t($link_login), $login_form)->toString();
+  } else {
+    $variables['Logout'] = Link::fromTextAndUrl(t($link_logout), $login_off)->toString();
+    $variables['name'] = Link::createFromRoute($name, 'entity.user.canonical', ['user' => $uid,]);
+  }
+
 }

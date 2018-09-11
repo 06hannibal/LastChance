@@ -6,7 +6,7 @@ global-styling:
       css/page.css: {}
       css/style.css: {}
   dependencies:
-    - boots_theme/theme
+    - lastchance_theme/theme
     - core/drupal.ajax
     - core/drupal.progress
     - core/jquery.once

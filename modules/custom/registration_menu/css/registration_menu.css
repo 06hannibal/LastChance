@@ -1,0 +1,82 @@
+.form-login, .form-registration  {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 90px;
+    line-height: 9px;
+    background-color: rgb(169, 226, 243);
+}
+.form-login {
+    z-index: 1;
+}
+.form-login div.form-item-name, .form-login div.form-item-pass{
+    margin-top: 20%;
+}
+.registerform-active {
+    z-index: 2;
+    background-color: rgb(115, 140, 147);
+}
+.form-registration input {
+    background-color: #0B4C5F;
+    color: white;
+}
+.form-registration .form-submit {
+    background-color: white;
+    color: #0B4C5F;
+    position: relative;
+    top: 120px;
+}
+
+.whitetop {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    box-shadow: none;
+    background: white;
+    border-radius: 10px 10px 0px 0px;
+}
+.form-submit {
+    position: relative;
+    top: 160px;
+    width: 160px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    color: #49B8A8;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+.form-submit:hover {
+    background-color: #088A85;
+    color: white;
+    border-radius: 10px;
+}
+.login {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    cursor: pointer;
+    background-color: rgb(169, 226, 243);
+}
+.register {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    cursor: pointer;
+    background-color: rgb(115, 140, 147);
+}
+
+

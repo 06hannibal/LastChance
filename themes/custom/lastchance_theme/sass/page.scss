@@ -15,7 +15,7 @@ header.header {
   list-style-image: none;
   line-height: 50px;
 }
-nav#block-lastchance-theme-main-menu ul.menu li a,div#block-lastchance-theme-branding div a,nav#block-lastchance-theme-account-menu ul li a {
+nav#block-lastchance-theme-main-menu ul.menu li a,div#block-lastchance-theme-branding div a,nav#block-lastchance-theme-account-menu ul li a, nav#block-lastchance-theme-account-menu div.login-user a, nav#block-lastchance-theme-account-menu div.Logout a, nav#block-lastchance-theme-account-menu div.name a {
   color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -24,7 +24,7 @@ nav#block-lastchance-theme-main-menu ul.menu li a,div#block-lastchance-theme-bra
   font-size: 120%;
   font-family: "Lucida Grande", Verdana, sans-serif;
 }
-nav#block-lastchance-theme-main-menu ul.menu li a:hover,div#block-lastchance-theme-branding div a:hover,nav#block-lastchance-theme-account-menu ul li a:hover {
+nav#block-lastchance-theme-main-menu ul.menu li a:hover,div#block-lastchance-theme-branding div a:hover,nav#block-lastchance-theme-account-menu ul li a:hover,nav#block-lastchance-theme-account-menu div.login-user a:hover, nav#block-lastchance-theme-account-menu div.Logout a:hover, nav#block-lastchance-theme-account-menu div.name a:hover {
   color: #333;
   text-decoration: none;
   background: #0074bd;
@@ -57,9 +57,12 @@ aside.sidebar {
 section.main-content {
   min-height: 800px;
   max-height: 1000px;
-  width: 70%;
+  width: 60%;
   float: left;
   opacity: 1;
+}
+main.page-content {
+  margin-bottom: 0px;
 }
 footer.footer {
   clear: both;
@@ -74,14 +77,15 @@ div.region-sidebar,div.region-main-content {
 aside.sidebar div.region div,section.main-content div.region div {
   margin-bottom:5%;
 }
-//section.main {
-//  background-image: url("https://media.jaa.su/wp-content/uploads/2017/11/02180613/new-york-01.jpg");
-//  background-position: center;
-//  background-size: cover;
-//  min-height: 500px;
-//  max-height: 1000px;
-//  opacity: 0.9;
-//}
+.login-user {
+  margin-top: 12%;
+}
+.name {
+  position: relative;
+  right: 110%;
+  top: 20px;
+}
+
 section.main.page-night {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg/700px-New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg");
   background-position: center;

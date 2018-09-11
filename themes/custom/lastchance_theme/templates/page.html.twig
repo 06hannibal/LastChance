@@ -1,25 +1,26 @@
-<header class="header">
-  {% block header %}
-    {{ page.header }}
-  {% endblock %}
+<header class="header content-header clearfix">
+  <div class="layout-container">
+    {% block header %}
+      {{ page.header }}
+    {% endblock %}
+  </div>
 </header>
 
 {% block main %}
-<section class="main {{ night }}{{ morning }}{{ day }}{{ evening }}">
-
-  <section class="main-content">
-    {% block main_content %}
-      {{ page.main_content }}
-    {% endblock %}
+  <section class="main {{ night }}{{ morning }}{{ day }}{{ evening }}">
+    <main class="page-content clearfix" role="main">
+    <section class="layout-container main-content" role="main">
+      {% block content %}
+        {{ page.content }}
+      {% endblock %}
+    </section>
+    <aside class="sidebar">
+      {% block sidebar %}
+        {{ page.sidebar }}
+      {% endblock %}
+    </aside>
+    </main>
   </section>
-
-  <aside class="sidebar">
-    {% block sidebar %}
-      {{ page.sidebar }}
-    {% endblock %}
-  </aside>
-
-</section>
 {% endblock %}
 
 <footer class="footer">

@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - system
     - youtube_channel
   theme:
     - lastchance_theme
@@ -20,4 +21,9 @@ settings:
   youtube_api_key: AIzaSyCaeuIvYu0QlatbsS9PB1lJvC4hck2NqHY
   youtube_id: UCVnah-S-sByndtg9cHBxlOA
   youtube_video_limit: '10'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

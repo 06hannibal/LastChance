@@ -11,7 +11,7 @@ _core:
 id: lastchance_theme_messages
 theme: lastchance_theme
 region: header
-weight: 3
+weight: 2
 provider: null
 plugin: system_messages_block
 settings:

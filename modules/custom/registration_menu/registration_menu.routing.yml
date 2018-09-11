@@ -1,0 +1,23 @@
+registration_menu.login:
+  path: '/login-form'
+  defaults:
+    _form: '\Drupal\registration_menu\Form\FormLogin'
+    _title: 'Login Form'
+  requirements:
+    _access: 'TRUE'
+
+registration_menu.form:
+  path: '/registration-form'
+  defaults:
+    _form: '\Drupal\registration_menu\Form\FormRegistration'
+    _title: 'Registration Form'
+  requirements:
+    _access: 'TRUE'
+
+registration_menu.menu:
+  path: '/menu'
+  defaults:
+    _controller: '\Drupal\registration_menu\Controller\RegistrationMenuController::Menu'
+    _title: 'Registration Menu'
+  requirements:
+    _access: 'TRUE'

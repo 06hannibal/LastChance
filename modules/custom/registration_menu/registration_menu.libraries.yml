@@ -1,0 +1,6 @@
+registration_menu:
+  css:
+    theme:
+      css/registration_menu.css: {}
+  js:
+    js/registration_menu.js: {}

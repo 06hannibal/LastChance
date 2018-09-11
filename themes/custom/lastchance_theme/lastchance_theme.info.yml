@@ -8,9 +8,9 @@ libraries:
   - lastchance_theme/global-styling
 
 regions:
-  header: 'Header'
+  header: 'header'
   sidebar: 'sidebar'
-  main_content: 'main_content'
+  content: 'main content'
   footer: 'footer'
 
 # Information added by Drupal.org packaging script on 2016-11-30
