@@ -1,0 +1,54 @@
+<?php
+
+/**
+ * @return mixed
+ * Implements hook_schema()
+ */
+function contact_us_schema() {
+
+    $schema['contact_us'] = [
+
+      'description' => 'Form of communication with users',
+
+      'fields' => [
+
+        'id' => [
+          'description' => 'ID',
+          'type' => 'serial',
+          'not null' => TRUE,
+          ],
+
+        'title' => [
+          'description' => 'title',
+          'type' => 'varchar',
+          'length' => 255,
+          'not null' => TRUE,
+        ],
+
+        'email' => [
+          'description' => 'email',
+          'type' => 'varchar',
+          'length' => 254,
+          'not null' => TRUE,
+        ],
+
+        'text' => [
+          'description' => 'text',
+          'type' => 'text',
+          'not null' => TRUE,
+        ],
+
+      ],
+
+        'primary key' => ['id'],
+    ];
+
+    return $schema;
+}
+/**
+ * Implements hook_uninstall().
+ */
+function database_uninstall() {
+
+    \Drupal::state()->delete('contact_us.custom_table');
+}

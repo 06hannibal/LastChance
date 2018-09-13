@@ -1,0 +1,7 @@
+contact_us.form:
+  path: '/contact-us'
+  defaults:
+    _form: '\Drupal\contact_us\Form\ContactUsForm'
+    _title: 'CONTACT US'
+  requirements:
+    _access: 'TRUE'

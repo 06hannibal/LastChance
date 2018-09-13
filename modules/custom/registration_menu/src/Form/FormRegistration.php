@@ -78,7 +78,7 @@ class FormRegistration extends FormBase {
     ];
 
 
-    $form['submit'] = array(
+    $form['submit'] = [
       '#type' => 'submit',
       '#value' => t('Sign up'),
       '#ajax' => [
@@ -88,7 +88,7 @@ class FormRegistration extends FormBase {
           'type' => 'throbber',
         ],
       ],
-    );
+    ];
 
     return $form;
   }

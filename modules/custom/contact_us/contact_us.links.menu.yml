@@ -1,0 +1,7 @@
+contact_us.form:
+ title: 'CONTACT US'
+ description: 'Form of communication with users.'
+ route_name: contact_us.form
+ weight: 100
+ #If menu_name is omitted, the "Tools" menu will be used.
+ menu_name: footer
