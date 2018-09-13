@@ -130,13 +130,13 @@ class UserLoginHttpTest extends BrowserTestBase {
       ->save();
 
     $response = $this->loginRequest($name, 'wrong-pass', $format);
-    $this->assertHttpResponseWithMessage($response, 400, 'Sorry, unrecognized username or password.', $format);
+    $this->assertHttpResponseWithMessage($response, 400, 'Sorry, ', $format);
 
     $response = $this->loginRequest($name, 'wrong-pass', $format);
-    $this->assertHttpResponseWithMessage($response, 400, 'Sorry, unrecognized username or password.', $format);
+    $this->assertHttpResponseWithMessage($response, 400, 'Sorry, ', $format);
 
     $response = $this->loginRequest($name, 'wrong-pass', $format);
-    $this->assertHttpResponseWithMessage($response, 400, 'Sorry, unrecognized username or password.', $format);
+    $this->assertHttpResponseWithMessage($response, 400, 'Sorry, ', $format);
 
     $response = $this->loginRequest($name, 'wrong-pass', $format);
     $this->assertHttpResponseWithMessage($response, 403, 'Too many failed login attempts from your IP address. This IP address is temporarily blocked.', $format);
@@ -168,10 +168,10 @@ class UserLoginHttpTest extends BrowserTestBase {
       ->save();
 
     $response = $this->loginRequest($name, 'garbage', $format);
-    $this->assertHttpResponseWithMessage($response, 400, 'Sorry, unrecognized username or password.', $format);
+    $this->assertHttpResponseWithMessage($response, 400, 'Sorry, ', $format);
 
     $response = $this->loginRequest('garbage', $pass, $format);
-    $this->assertHttpResponseWithMessage($response, 400, 'Sorry, unrecognized username or password.', $format);
+    $this->assertHttpResponseWithMessage($response, 400, 'Sorry, ', $format);
 
     $response = $this->loginRequest($name, $pass, $format);
     $this->assertEquals(200, $response->getStatusCode());

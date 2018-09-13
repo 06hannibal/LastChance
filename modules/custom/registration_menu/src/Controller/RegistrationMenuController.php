@@ -27,8 +27,6 @@ class RegistrationMenuController extends ControllerBase {
 
     $build['#attached']['library'][] = 'registration_menu/registration_menu';
 
-    $build['#cache']['max-age'] = 0;
-
     return $build;
 
   }

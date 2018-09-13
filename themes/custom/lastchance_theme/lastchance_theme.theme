@@ -5,6 +5,8 @@
  * Functions to support theming in the Adminimal theme.
  */
 
+use Drupal\Core\Ajax\AjaxResponse;
+use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Link;
 use Drupal\Component\Serialization\Json;
 use Drupal\Core\Url;
@@ -62,7 +64,7 @@ function lastchance_theme_preprocess_menu__account(&$variables) {
       'data-dialog-options' => Json::encode([
         'title' => t('Registration Menu'),
         'width' => 400,
-        'height' => 500,
+        'height' => 400,
       ]),
     ],
   ]);
