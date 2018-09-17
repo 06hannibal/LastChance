@@ -1,7 +1,23 @@
-contact_us.form:
+contact_us.contactform:
   path: '/contact-us'
   defaults:
     _form: '\Drupal\contact_us\Form\ContactUsForm'
     _title: 'CONTACT US'
+  requirements:
+    _access: 'TRUE'
+
+contact_us.emailform:
+  path: '/email-form'
+  defaults:
+    _form: '\Drupal\contact_us\Form\ContactEmailForm'
+    _title: 'Feedback Form'
+  requirements:
+    _access: 'TRUE'
+
+contact_us.table:
+  path: '/contact-us-table'
+  defaults:
+    _controller: '\Drupal\contact_us\Controller\ContactUsTable::Feedback'
+    _title: 'CONTACT US Table'
   requirements:
     _access: 'TRUE'

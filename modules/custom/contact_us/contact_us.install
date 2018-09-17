@@ -38,6 +38,14 @@ function contact_us_schema() {
           'not null' => TRUE,
         ],
 
+        'status' => [
+          'description' => '0 = in good standing; 1 = blocked',
+          'type' => 'int',
+          'size' => 'tiny',
+          'not null' => TRUE,
+          'default' => 0,
+        ],
+
       ],
 
         'primary key' => ['id'],

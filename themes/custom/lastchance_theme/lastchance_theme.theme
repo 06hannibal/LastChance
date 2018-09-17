@@ -26,6 +26,7 @@ function lastchance_theme_preprocess_html(&$variables) {
  */
 function lastchance_theme_preprocess_page(&$variables){
 
+  $variables['#cache']['max-age'] = 0;
   $currdata = date('H');
 
   switch ($currdata) {

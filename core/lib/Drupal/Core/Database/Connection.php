@@ -1240,6 +1240,10 @@ abstract class Connection {
    */
   abstract public function queryRange($query, $from, $count, array $args = [], array $options = []);
 
+  public function get($string)
+  {
+  }
+
   /**
    * Generates a temporary table name.
    *

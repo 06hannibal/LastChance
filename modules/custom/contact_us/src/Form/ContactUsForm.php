@@ -66,6 +66,7 @@ class ContactUsForm extends FormBase {
         'title' => $form_state->getValue('title'),
         'email' => $form_state->getValue('email'),
         'text' => $form_state->getValue('text'),
+        'status' => 0,
       ])
 
       ->execute();

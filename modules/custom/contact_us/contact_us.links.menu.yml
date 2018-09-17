@@ -1,7 +1,15 @@
-contact_us.form:
+contact_us.contactform:
  title: 'CONTACT US'
  description: 'Form of communication with users.'
- route_name: contact_us.form
+ route_name: contact_us.contactform
  weight: 100
  #If menu_name is omitted, the "Tools" menu will be used.
  menu_name: footer
+
+contact_us.table:
+ title: 'Feedback page'
+ description: 'Feedback page'
+ route_name: contact_us.table
+ weight: -98
+ #If menu_name is omitted, the "Tools" menu will be used.
+ menu_name: admin

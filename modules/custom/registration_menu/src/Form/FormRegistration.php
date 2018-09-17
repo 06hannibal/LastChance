@@ -109,20 +109,35 @@ class FormRegistration extends FormBase {
 
     $registration_response = new AjaxResponse();
 
-    $query = \Drupal::database()->select('users_field_data', 'ufd');
-    $is_exist = (bool)$query
+    $query_name = \Drupal::database()->select('users_field_data', 'ufd');
+    $is_name = (bool)$query_name
       ->condition('ufd.name', $name)
       ->countQuery()
       ->execute()
       ->fetchField();
 
-    if ($is_exist) {
+    $query_email = \Drupal::database()->select('users_field_data', 'ufd');
+    $is_email = (bool)$query_email
+      ->condition('ufd.mail', $email)
+      ->countQuery()
+      ->execute()
+      ->fetchField();
+
+    if ($is_name) {
 
       $selector_pass = '.odd';
       $css = [
         'background' => '#00bc8c',
       ];
       drupal_set_message(t("The name of such a user already exists."), 'error');
+
+    } elseif ($is_email) {
+
+      $selector_pass = '.odd';
+      $css = [
+        'background' => '#00bc8c',
+      ];
+      drupal_set_message(t("The e-mail of such a user already exists."), 'error');
 
     } elseif ($pass!=$pass2) {
 

@@ -1,0 +1,57 @@
+<?php
+
+use Drupal\Component\Utility\Html;
+
+/**
+ * @param $key
+ * @param $message
+ * @param $params
+ * Implements hook_mail()
+ */
+function contact_us_mail($key, &$message, $params) {
+
+  switch ($key) {
+
+    case 'key_contact':
+
+      $message['from'] = \Drupal::config('system.site')->get('mail');
+
+      $message['headers']['Content-Type'] = 'text/html; charset=UTF-8; format=flowed; delsp=yes';
+      $message['subject'] = \Drupal::currentUser()->getAccountName();
+
+      $theme_body = [
+        '#theme' => 'contact_us_answer',
+        '#name' => $params['title'],
+        '#topic_question' => $params['body']['topic_question'],
+        '#question' => $params['body']['question'],
+        '#answer' => $params['body']['answer'],
+      ];
+
+      $mail_body = \Drupal::service('renderer')->render($theme_body);
+      $message['body'][] = Html::escape($mail_body);
+      break;
+  }
+}
+
+  /**
+   * Implements hook_theme()
+   */
+function contact_us_theme() {
+    return [
+      'contact_us_answer' => [
+        'variables' => [
+          'name' => NULL,
+          'topic_question' => NULL,
+          'question' => NULL,
+          'answer' => NULL,
+          ],
+        ],
+      ];
+  }
+
+
+
+
+
+
+
