@@ -83,6 +83,7 @@ $settings['cache']['bins']['render'] = 'cache.backend.null';
  */
 $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
 
+
 /**
  * Allow test modules and themes to be installed.
  *

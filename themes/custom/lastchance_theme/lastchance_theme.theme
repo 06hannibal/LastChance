@@ -26,19 +26,28 @@ function lastchance_theme_preprocess_html(&$variables) {
  */
 function lastchance_theme_preprocess_page(&$variables){
 
-  $variables['#cache']['max-age'] = 0;
+  $anonymous = \Drupal::currentUser()->isAnonymous();
+
   $currdata = date('H');
 
+  if($anonymous==true) {
+    \Drupal::service('page_cache_kill_switch')->trigger();
+  }
+
   switch ($currdata) {
+
     case $currdata==0 || $currdata<=4:
       $variables['night'] ='page-night';
       break;
+
     case $currdata==5 || $currdata<=10:
       $variables['morning'] ='page-morning';
       break;
+
     case $currdata==11 || $currdata<=16:
       $variables['day'] ='page-day';
       break;
+
     case $currdata==17 || $currdata<=23:
       $variables['evening'] ='page-evening';
       break;
