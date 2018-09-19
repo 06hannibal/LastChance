@@ -38,7 +38,7 @@ class ContactEmailForm extends FormBase {
 
     $id = \Drupal::request()->query->get('id');
 
-    $rows = [];
+    $rows['name'] = [];
 
     foreach ($contacts as $contact) {
       $attributes = $contact->id;
