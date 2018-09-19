@@ -1,7 +1,0 @@
-youtubechannel:
-  version: 1.x
-  css:
-    theme:
-      css/youtube_channel.css: {}
-  js:
-    js/youtube_channel.js: {}
