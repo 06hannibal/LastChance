@@ -64,7 +64,6 @@ class ContactUsTable extends ControllerBase {
       '#header' => $header,
       '#type' => 'table',
       '#rows' => $rows,
-      '#markup' => t('No records found!'),
     ];
 
     $build['pager'] = [

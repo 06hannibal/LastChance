@@ -33,7 +33,6 @@ class ContactEmailForm extends FormBase {
     $query = \Drupal::database()->select('contact_us', 'cu');
     $query->fields('cu', ['id','title','email','text']);
     $query->orderBy('id', 'DESC');
-    $query->range(0, 10);
     $contacts = $query->execute()->fetchAll();
 
     $id = \Drupal::request()->query->get('id');
@@ -53,10 +52,6 @@ class ContactEmailForm extends FormBase {
         ];
       }
     }
-//
-//    kint($rows);
-//
-//    die();
 
     \Drupal::state()->setMultiple($rows['name']);
 
@@ -131,6 +126,12 @@ class ContactEmailForm extends FormBase {
       'question' => $output['text'],
       'answer' => $answer,
     ];
+
+    \Drupal::state()->delete('id');
+    \Drupal::state()->delete('title');
+    \Drupal::state()->delete('email');
+    \Drupal::state()->delete('text');
+
 
     $send = TRUE;
 
