@@ -1,0 +1,39 @@
+#block-menuelement {
+    position: absolute;
+    z-index: 10;
+    min-width: 170px;
+    left: 190px;
+}
+.drop-down-image {
+    width: 20px;
+    height: 20px;
+}
+.button-drop-down {
+    list-style-type: none;
+    min-width: 100px;
+    overflow: hidden;
+    font-size: 20px;
+}
+li.li-drop-down a {
+    font-size: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+ul.ul-drop-down {
+    display: none;
+}
+ul.ul-drop-down.active {
+    display: block;
+    background: #333;
+    position: relative;
+    margin-left: 0px;
+    left: -20px;
+    min-width: 120px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+.menu-drop-down {
+    line-height: 30px;
+    position: relative;
+    top: -15px;
+}

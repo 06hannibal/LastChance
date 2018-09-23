@@ -9,7 +9,7 @@ _core:
 id: lastchance_theme_local_tasks
 theme: lastchance_theme
 region: header
-weight: -1
+weight: 1
 provider: null
 plugin: local_tasks_block
 settings:

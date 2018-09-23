@@ -1,0 +1,12 @@
+<ul class="menu-drop-down">
+  <li class="button-drop-down">
+    {% for main_img in rows_main|keys %}
+      <a><img class="drop-down-image" src="{{ main_img }}">{{ rows_main[main_img].title['title'] }}</a>
+    {% endfor %}
+    <ul class="ul-drop-down">
+      {% for img in rows|keys %}
+        <li class="li-drop-down"><a href="{{ rows[img]['url_node'] }}"><img class="drop-down-image" src="{{ img }}">{{ rows[img].title['title'] }}</a></li>
+      {% endfor %}
+    </ul>
+  </li>
+</ul>

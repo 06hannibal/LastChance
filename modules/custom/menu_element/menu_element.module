@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function menu_element_theme() {
+
+  return [
+    'menu_element' => [
+      'variables' => [
+        'rows_main' => NULL,
+        'rows' => NULL,
+      ],
+    ],
+  ];
+}

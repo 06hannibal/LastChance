@@ -1,0 +1,20 @@
+uuid: 7ebb57e9-f27d-43a2-b7c1-bd09af1a6ec0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_element
+  theme:
+    - lastchance_theme
+id: menuelement
+theme: lastchance_theme
+region: header
+weight: -6
+provider: null
+plugin: menu_element
+settings:
+  id: menu_element
+  label: 'Menu Element'
+  provider: menu_element
+  label_display: '0'
+visibility: {  }

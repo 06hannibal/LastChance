@@ -1,6 +1,6 @@
 uuid: def868f7-4702-44d3-9316-b61fe4c75600
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ dependencies:
 id: youtubechannelblock
 theme: lastchance_theme
 region: sidebar
-weight: 0
+weight: -7
 provider: null
 plugin: youtube_channel_block
 settings:

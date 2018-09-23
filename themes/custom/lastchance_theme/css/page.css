@@ -11,21 +11,22 @@ body {
 /* line 7, ../sass/page.scss */
 header.header {
   background: #333;
+  min-height: 60px;
 }
 
-/* line 10, ../sass/page.scss */
+/* line 11, ../sass/page.scss */
 .region-header {
   height: 59px;
 }
 
-/* line 13, ../sass/page.scss */
+/* line 14, ../sass/page.scss */
 #block-lastchance-theme-main-menu ul.menu li.menu-item, nav#block-lastchance-theme-account-menu ul.menu li.menu-item {
   list-style-type: none;
   list-style-image: none;
   line-height: 50px;
 }
 
-/* line 18, ../sass/page.scss */
+/* line 19, ../sass/page.scss */
 nav#block-lastchance-theme-main-menu ul.menu li a, div#block-lastchance-theme-branding div a, nav#block-lastchance-theme-account-menu ul li a, nav#block-lastchance-theme-account-menu div.login-user a, nav#block-lastchance-theme-account-menu div.Logout a, nav#block-lastchance-theme-account-menu div.name a, .contact-us a {
   color: #fff;
   padding-top: 20px;
@@ -36,141 +37,182 @@ nav#block-lastchance-theme-main-menu ul.menu li a, div#block-lastchance-theme-br
   font-family: "Lucida Grande", Verdana, sans-serif;
 }
 
-/* line 27, ../sass/page.scss */
+/* line 28, ../sass/page.scss */
 nav#block-lastchance-theme-main-menu ul.menu li a:hover, div#block-lastchance-theme-branding div a:hover, nav#block-lastchance-theme-account-menu ul li a:hover, nav#block-lastchance-theme-account-menu div.login-user a:hover, nav#block-lastchance-theme-account-menu div.Logout a:hover, nav#block-lastchance-theme-account-menu div.name a:hover, .contact-us a:hover {
   color: #333;
   text-decoration: none;
   background: #0074bd;
 }
 
-/* line 32, ../sass/page.scss */
+/* line 33, ../sass/page.scss */
 nav#block-lastchance-theme-main-menu, div#block-lastchance-theme-branding, div.site-name, nav#block-lastchance-theme-account-menu, nav#block-lastchance-theme-account-menu ul.menu li.menu-item {
   display: inline-block;
 }
 
-/* line 35, ../sass/page.scss */
+/* line 36, ../sass/page.scss */
 nav#block-lastchance-theme-main-menu, div#block-lastchance-theme-branding, div#block-lastchance-theme-branding div.site-name, nav#block-lastchance-theme-account-menu ul li {
   margin-left: 1%;
 }
 
-/* line 38, ../sass/page.scss */
+/* line 39, ../sass/page.scss */
 nav#block-lastchance-theme-account-menu ul {
   width: 100%;
 }
 
-/* line 41, ../sass/page.scss */
+/* line 42, ../sass/page.scss */
 div#block-lastchance-theme-branding a.site-logo img {
+  max-width: 10%;
+  position: relative;
+  top: 20px;
+}
+
+/* line 47, ../sass/page.scss */
+div#block-lastchance-theme-branding div.site-name a {
   max-width: 10%;
   position: relative;
   top: 10px;
 }
 
-/* line 46, ../sass/page.scss */
+/* line 53, ../sass/page.scss */
 nav#block-lastchance-theme-account-menu {
   float: right;
   margin-right: 1%;
 }
 
-/* line 50, ../sass/page.scss */
+/* line 57, ../sass/page.scss */
 aside.sidebar {
   float: left;
   width: 30%;
   min-height: 800px;
-  max-height: 1000px;
+  overflow: hidden;
   opacity: 1;
 }
 
-/* line 57, ../sass/page.scss */
+/* line 64, ../sass/page.scss */
 section.main-content {
   min-height: 800px;
-  max-height: 1000px;
+  overflow: hidden;
   width: 60%;
   float: left;
   opacity: 1;
 }
 
-/* line 64, ../sass/page.scss */
+/* line 71, ../sass/page.scss */
 main.page-content {
   margin-bottom: 0px;
 }
 
-/* line 67, ../sass/page.scss */
+/* line 74, ../sass/page.scss */
 footer.footer {
   clear: both;
   background: #333;
   margin-top: 0;
-  min-height: 200px;
-  max-height: 400px;
+  min-height: 400px;
+  overflow: hidden;
 }
 
-/* line 74, ../sass/page.scss */
+/* line 81, ../sass/page.scss */
 div.region-sidebar, div.region-main-content {
   margin: 5%;
 }
 
-/* line 77, ../sass/page.scss */
+/* line 84, ../sass/page.scss */
 aside.sidebar div.region div, section.main-content div.region div {
   margin-bottom: 5%;
 }
 
-/* line 80, ../sass/page.scss */
+/* line 87, ../sass/page.scss */
 .login-user {
   margin-top: 12%;
 }
 
-/* line 83, ../sass/page.scss */
+/* line 90, ../sass/page.scss */
 .name {
-  position: relative;
-  right: 110%;
-  top: 20px;
+  position: absolute;
+  right: 10%;
+  top: 90px;
 }
 
-/* line 89, ../sass/page.scss */
+/* line 95, ../sass/page.scss */
+.Logout {
+  position: absolute;
+  right: 2%;
+  top: 90px;
+}
+
+/* line 101, ../sass/page.scss */
 section.main.page-night {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg/700px-New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg");
   background-position: center;
   background-size: cover;
   min-height: 800px;
-  max-height: 1000px;
+  overflow: hidden;
   opacity: 0.7;
 }
 
-/* line 97, ../sass/page.scss */
+/* line 109, ../sass/page.scss */
 section.main.page-morning {
   background-image: url("https://media.jaa.su/wp-content/uploads/2017/11/02180613/new-york-01.jpg");
   background-position: center;
   background-size: cover;
   min-height: 800px;
-  max-height: 1000px;
+  overflow: hidden;
   opacity: 0.7;
 }
 
-/* line 105, ../sass/page.scss */
+/* line 117, ../sass/page.scss */
 section.main.page-day {
   background-image: url("https://yeremenko.ua/images/banners/central-park-a-new-york-durante-autunno-1.jpg");
   background-position: center;
   background-size: cover;
   min-height: 800px;
-  max-height: 1000px;
+  overflow: hidden;
   opacity: 0.7;
 }
 
-/* line 113, ../sass/page.scss */
+/* line 125, ../sass/page.scss */
 section.main.page-evening {
   background-image: url("https://horosho-tam.ru/thumb/1100/pics/94/ad/5a788455f92daa71166dad94/manhattan-skyline-panorama-nyu-yorka.jpg");
   background-position: center;
   background-size: cover;
   min-height: 800px;
-  max-height: 1000px;
+  overflow: hidden;
   opacity: 0.7;
 }
 
-/* line 121, ../sass/page.scss */
+/* line 133, ../sass/page.scss */
 .form-registration .form-submit {
   top: 0px;
 }
 
-/* line 124, ../sass/page.scss */
+/* line 136, ../sass/page.scss */
 .form-login .form-submit {
   top: 0px;
+}
+
+/* line 139, ../sass/page.scss */
+a, .link {
+  color: #c5dff8;
+  text-decoration: none;
+}
+
+/* line 143, ../sass/page.scss */
+a:hover, .link:hover {
+  color: red;
+  text-decoration: none;
+}
+
+/* line 147, ../sass/page.scss */
+.field__item a, .link {
+  font-size: 280%;
+}
+
+/* line 150, ../sass/page.scss */
+.is-active a, .link {
+  color: red;
+}
+
+/* line 153, ../sass/page.scss */
+.text-formatted {
+  color: #feff00;
 }

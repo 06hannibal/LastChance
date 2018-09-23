@@ -1,0 +1,6 @@
+menu_element:
+  css:
+    theme:
+      css/menu_element.css: {}
+  js:
+    js/menu_element.js: {}

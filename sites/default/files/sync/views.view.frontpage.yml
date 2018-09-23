@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - core.entity_view_mode.node.rss
-    - core.entity_view_mode.node.teaser
   module:
     - node
     - user
@@ -75,51 +75,78 @@ display:
           sort_desc_label: Desc
       filters:
         promote:
+          id: promote
+          table: node_field_data
+          field: promote
+          relationship: none
+          group_type: group
           admin_label: ''
+          operator: '='
+          value: '1'
+          group: 1
+          exposed: false
           expose:
-            description: ''
-            identifier: ''
-            label: ''
-            multiple: false
-            operator: ''
             operator_id: ''
+            label: 'Promoted to front page status'
+            description: null
+            use_operator: false
+            operator: promote_op
+            identifier: promote
+            required: true
             remember: false
+            multiple: false
             remember_roles:
               authenticated: authenticated
-            required: false
-            use_operator: false
-          exposed: false
-          field: promote
-          group: 1
+          is_grouped: false
           group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
             default_group: All
             default_group_multiple: {  }
-            description: ''
             group_items: {  }
-            identifier: ''
-            label: ''
-            multiple: false
-            optional: true
-            remember: false
-            widget: select
-          group_type: group
-          id: promote
-          is_grouped: false
-          operator: '='
-          relationship: none
-          table: node_field_data
-          value: '1'
           plugin_id: boolean
           entity_type: node
           entity_field: promote
         status:
-          expose:
-            operator: ''
-          field: status
-          group: 1
           id: status
           table: node_field_data
+          field: status
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: '='
           value: '1'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
           plugin_id: boolean
           entity_type: node
           entity_field: status
@@ -130,23 +157,26 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          operator: in
+          operator: 'not in'
           value:
             '***LANGUAGE_language_content***': '***LANGUAGE_language_content***'
           group: 1
           exposed: false
           expose:
-            operator_id: ''
-            label: ''
+            operator_id: langcode_op
+            label: 'Translation language'
             description: ''
             use_operator: false
-            operator: ''
-            identifier: ''
+            operator: langcode_op
+            identifier: langcode
             required: false
             remember: false
             multiple: false
             remember_roles:
               authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+              moderator: '0'
             reduce: false
           is_grouped: false
           group_info:
@@ -164,12 +194,15 @@ display:
           entity_type: node
           entity_field: langcode
       pager:
-        type: full
+        type: mini
         options:
-          items_per_page: 10
+          items_per_page: 1
           offset: 0
           id: 0
-          total_pages: 0
+          total_pages: null
+          tags:
+            previous: '‹ Previous'
+            next: 'Next ›'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -178,12 +211,6 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
-          quantity: 9
       query:
         type: views_query
         options:
@@ -195,35 +222,36 @@ display:
       row:
         type: 'entity:node'
         options:
-          view_mode: teaser
+          relationship: none
+          view_mode: full
       sorts:
         sticky:
+          id: sticky
+          table: node_field_data
+          field: sticky
+          relationship: none
+          group_type: group
           admin_label: ''
+          order: ASC
+          exposed: false
           expose:
             label: ''
-          exposed: false
-          field: sticky
-          group_type: group
-          id: sticky
-          order: DESC
-          relationship: none
-          table: node_field_data
           plugin_id: boolean
           entity_type: node
           entity_field: sticky
         created:
-          field: created
           id: created
-          order: DESC
           table: node_field_data
-          plugin_id: date
+          field: created
           relationship: none
           group_type: group
           admin_label: ''
+          order: ASC
           exposed: false
           expose:
             label: ''
           granularity: second
+          plugin_id: date
           entity_type: node
           entity_field: created
       style:
@@ -291,6 +319,65 @@ display:
     display_options:
       path: node
       display_extenders: {  }
+      use_more: false
+      defaults:
+        use_more: false
+        use_more_always: false
+        use_more_text: false
+        style: false
+        row: false
+        empty: false
+      use_more_always: true
+      use_more_text: more
+      style:
+        type: html_list
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          type: ul
+          wrapper_class: item-list
+          class: ''
+      row:
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: default
+      empty:
+        area_text_custom:
+          admin_label: ''
+          content: 'No front page content has been created yet.'
+          empty: true
+          field: area_text_custom
+          group_type: group
+          id: area_text_custom
+          label: ''
+          relationship: none
+          table: views
+          tokenize: false
+          plugin_id: text_custom
+        node_listing_empty:
+          admin_label: ''
+          empty: true
+          field: node_listing_empty
+          group_type: group
+          id: node_listing_empty
+          label: ''
+          relationship: none
+          table: node
+          plugin_id: node_listing_empty
+          entity_type: node
+        title:
+          id: title
+          table: views
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          title: 'Welcome to [site:name]'
+          label: ''
+          plugin_id: title
     display_plugin: page
     display_title: Page
     id: page_1
