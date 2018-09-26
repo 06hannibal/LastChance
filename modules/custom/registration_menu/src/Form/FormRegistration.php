@@ -186,6 +186,7 @@ class FormRegistration extends FormBase {
       $user->activate();
       $user->save();
 
+
       $registration_response->addCommand(new RedirectCommand(Url::fromRoute('<front>')->toString()));
 
       $selector_pass = '.odd';

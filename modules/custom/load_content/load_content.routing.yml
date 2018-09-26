@@ -1,0 +1,7 @@
+load_content.routing:
+  path: '/load_content/{nid}'
+  defaults:
+    _title: 'Load content Ajax link'
+    _controller: '\Drupal\load_content\Controller\LoadContentController::loadContent'
+  requirements:
+    _permission: 'access content'

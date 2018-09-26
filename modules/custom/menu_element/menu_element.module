@@ -9,7 +9,6 @@ function menu_element_theme() {
     'menu_element' => [
       'variables' => [
         'rows_main' => NULL,
-        'rows' => NULL,
       ],
     ],
   ];

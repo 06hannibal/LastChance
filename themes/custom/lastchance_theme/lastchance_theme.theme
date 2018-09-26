@@ -87,11 +87,3 @@ function lastchance_theme_preprocess_menu__account(&$variables) {
   }
 
 }
-
-/**
- * Implements hook_preprocess_block__system_branding_block() for HTML document templates.
- */
-function lastchance_theme_preprocess_block__system_branding_block(&$variables) {
-  $query = \Drupal::database()->select('node_field_data', 'nfd');
-
-}

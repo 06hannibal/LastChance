@@ -64,48 +64,9 @@ class MenuElementBlock extends BlockBase {
       ];
     }
 
-    $query = \Drupal::database()->select('node_field_data', 'nfd');
-    $query->Join('node__field_link_node', 'nfln', 'nfd.nid = nfln.entity_id');
-    $query->Join('node__field_image_menu', 'nfim', 'nfd.nid = nfim.entity_id');
-    $query->Join('file_managed', 'fm', 'fm.fid = nfim.field_image_menu_target_id');
-    $query->fields('nfd', ['nid','title']);
-    $query->fields('fm', ['uri']);
-    $query->orderBy('nfd.created', 'DESC');
-    $nodes = $query->execute()->fetchAll();
-
-    $rows = [];
-
-    foreach ($nodes as $node) {
-
-      $title = [
-        'title' => $node->title,
-      ];
-
-      if(!empty($node->nid)) {
-        $link_node = Link::createFromRoute($title, 'entity.node.canonical', ['node' => $node->nid,]);
-        $url_node = $link_node->getUrl()->toString();
-      } else {
-        $url_node = '';
-      }
-
-      if (!empty($node->uri)) {
-        $url = file_create_url($node->uri);
-        $uri = Link::fromTextAndUrl($title, Url::fromUri($url));
-        $url_imege_node = $uri->getUrl()->toString();
-      } else {
-        $url_imege_node = "";
-      }
-
-      $rows[$url_imege_node] = [
-        'url_node' => $url_node,
-        'title' => $title,
-      ];
-    }
-
     $build[] = [
       '#theme' => 'menu_element',
       '#rows_main' => $rows_main,
-      '#rows' => $rows,
     ];
 
     $build['#attached']['library'][] = 'menu_element/menu_element';

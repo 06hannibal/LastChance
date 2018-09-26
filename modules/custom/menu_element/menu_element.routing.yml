@@ -1,0 +1,7 @@
+menu_element.dropdown:
+  path: '/drop-down'
+  defaults:
+    _controller: '\Drupal\menu_element\Controller\MenuDropDownController::DropDown'
+    _title: 'Drop Down Menu'
+  requirements:
+    _access: 'TRUE'

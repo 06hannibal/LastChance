@@ -1188,6 +1188,64 @@
         }
     },
     {
+        "name": "drupal/dynamic_persistent_menu",
+        "version": "2.0.0-alpha2",
+        "version_normalized": "2.0.0.0-alpha2",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/dynamic_persistent_menu",
+            "reference": "8.x-2.0-alpha2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/dynamic_persistent_menu-8.x-2.0-alpha2.zip",
+            "reference": "8.x-2.0-alpha2",
+            "shasum": "e98cc2e7102946dc379d3d278aed526d166f68e3"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.0-alpha2",
+                "datestamp": "1333140046",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "ShaneOnABike",
+                "homepage": "https://www.drupal.org/user/260559"
+            },
+            {
+                "name": "alberto56",
+                "homepage": "https://www.drupal.org/user/245583"
+            },
+            {
+                "name": "yrocq",
+                "homepage": "https://www.drupal.org/user/57294"
+            }
+        ],
+        "description": "A menu with an horizontal animated submenu.",
+        "homepage": "https://www.drupal.org/project/dynamic_persistent_menu",
+        "support": {
+            "source": "http://cgit.drupalcode.org/dynamic_persistent_menu",
+            "error": "Invalid dependency: \"menu\" is an unknown drupal 8 package name"
+        }
+    },
+    {
         "name": "drupal/simple_block",
         "version": "1.0.0-beta1",
         "version_normalized": "1.0.0.0-beta1",
@@ -1234,6 +1292,123 @@
         "homepage": "https://www.drupal.org/project/simple_block",
         "support": {
             "source": "http://cgit.drupalcode.org/simple_block"
+        }
+    },
+    {
+        "name": "drupal/simplify_menu",
+        "version": "2.0.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/simplify_menu",
+            "reference": "8.x-2.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/simplify_menu-8.x-2.0.zip",
+            "reference": "8.x-2.0",
+            "shasum": "b5a31ac58edbad07b6a49ebc70a4c2dce8e68a3f"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.0",
+                "datestamp": "1509116285",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "edutrul",
+                "homepage": "https://www.drupal.org/user/1621444"
+            },
+            {
+                "name": "jmolivas",
+                "homepage": "https://www.drupal.org/user/678770"
+            },
+            {
+                "name": "marcelovani",
+                "homepage": "https://www.drupal.org/user/854220"
+            },
+            {
+                "name": "mariohernandez",
+                "homepage": "https://www.drupal.org/user/446544"
+            },
+            {
+                "name": "shrop",
+                "homepage": "https://www.drupal.org/user/14767"
+            }
+        ],
+        "description": "Adds a TwigExtension that grants access to Drupal's menu render array so it can be used within a twig template.",
+        "homepage": "https://www.drupal.org/project/simplify_menu",
+        "support": {
+            "source": "http://cgit.drupalcode.org/simplify_menu"
+        }
+    },
+    {
+        "name": "drupal/superfish",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/superfish",
+            "reference": "8.x-1.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/superfish-8.x-1.2.zip",
+            "reference": "8.x-1.2",
+            "shasum": "e6f11be2bb2b95957d144bb0155c29c7aad40a62"
+        },
+        "require": {
+            "drupal/core": "~8.0",
+            "mehrpadin/superfish": "~2.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.2",
+                "datestamp": "1517739480",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "mehrpadin",
+                "homepage": "https://www.drupal.org/u/mehrpadin",
+                "role": "Maintainer"
+            }
+        ],
+        "description": "Adds jQuery Superfish plugin to menu blocks.",
+        "homepage": "https://www.drupal.org/project/superfish",
+        "support": {
+            "source": "https://cgit.drupalcode.org/superfish",
+            "issues": "https://www.drupal.org/project/superfish"
         }
     },
     {
@@ -1880,6 +2055,35 @@
             "querypath",
             "serializer",
             "xml"
+        ]
+    },
+    {
+        "name": "mehrpadin/superfish",
+        "version": "2.1",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mehrpadin/Superfish-for-Drupal.git",
+            "reference": "80a0a484b727e9fbe6b0ee609f80e10e5e158683"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mehrpadin/Superfish-for-Drupal/zipball/80a0a484b727e9fbe6b0ee609f80e10e5e158683",
+            "reference": "80a0a484b727e9fbe6b0ee609f80e10e5e158683",
+            "shasum": ""
+        },
+        "time": "2017-05-30T13:00:18+00:00",
+        "type": "drupal-library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Superfish library for the Drupal Superfish module.",
+        "homepage": "https://github.com/mehrpadin/Superfish-for-Drupal",
+        "keywords": [
+            "jquery",
+            "plugin"
         ]
     },
     {

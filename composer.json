@@ -11,7 +11,10 @@
         "drupal/devel": "^1.2",
         "drupal/adminimal_admin_toolbar": "^1.8",
         "drupal/youtubechannel": "^3.1",
-        "drupal/simple_block": "^1.0"
+        "drupal/simple_block": "^1.0",
+        "drupal/simplify_menu": "^2.0",
+        "drupal/superfish": "^1.2",
+        "drupal/dynamic_persistent_menu": "^2.0"
     },
     "replace": {
         "drupal/core": "^8.4"

@@ -1,0 +1,4 @@
+name: Load Content
+description: Пример подгрузки статей сайта с использование Ajax API
+core: 8.x
+type: module
