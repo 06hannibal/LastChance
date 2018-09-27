@@ -11,7 +11,7 @@ entity_type: node
 bundle: menu_element
 label: link-node
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
