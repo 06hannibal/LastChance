@@ -2,7 +2,7 @@
     Drupal.behaviors.menu_element = {
         attach:function() {
             $(function () {
-                $('li.button-drop-down').once().one().click(function(){
+                $('li.button-drop-down').once().click(function(){
                     $(this).children('ul.ul-drop-down').toggleClass("active").empty();
                     jQuery.ajax({
                         type: "POST",
