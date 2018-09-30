@@ -1,0 +1,12 @@
+'delete person entity':
+  title: Delete person content.
+'add person entity':
+  title: Add person content
+'view person entity':
+  title: View person content
+'edit person entity':
+  title: Edit person content
+'administer person entity':
+  title: Administer person settings
+
+

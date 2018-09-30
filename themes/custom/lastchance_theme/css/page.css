@@ -216,3 +216,14 @@ a:hover, .link:hover {
 .text-formatted {
   color: #feff00;
 }
+
+/* line 156, ../sass/page.scss */
+.field__item {
+  font-size: 2.35em;
+  color: #f70000;
+}
+
+/* line 160, ../sass/page.scss */
+.field--type-image {
+  max-width: 30%;
+}

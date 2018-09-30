@@ -1,0 +1,24 @@
+uuid: 90230e50-bf83-4c42-b034-afbe73b50acc
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - lastchance_theme
+id: tools
+theme: lastchance_theme
+region: sidebar
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

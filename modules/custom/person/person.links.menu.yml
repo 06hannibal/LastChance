@@ -1,0 +1,13 @@
+# Define the menu links for this module
+
+entity.person.collection:
+  title: 'Content Person Listing'
+  route_name: entity.person.collection
+  description: 'List terms'
+  weight: 10
+entity.person.admin.structure.settings:
+  title: Person Settings
+  description: 'Configure term entity'
+  route_name:  entity.person_term.term_settings
+  parent: system.admin_structure
+

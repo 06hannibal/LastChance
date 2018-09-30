@@ -1,0 +1,47 @@
+entity.person.canonical:
+  path: '/person/{person}'
+  defaults:
+    _entity_view: 'person'
+    _title: 'Person Content'
+  requirements:
+    _entity_access: 'person.view'
+
+entity.person.collection:
+  path: '/person/list'
+  defaults:
+    _entity_list: 'person'
+    _title: 'Person List'
+  requirements:
+    _permission: 'view person entity'
+
+entity.person_term.term_add:
+  path: '/person/add'
+  defaults:
+    _entity_form: person.add
+    _title: 'Add Person'
+  requirements:
+    _entity_create_access: 'person'
+
+entity.person.edit_form:
+  path: '/person/{person}/edit'
+  defaults:
+    _entity_form: person.edit
+    _title: 'Edit Person'
+  requirements:
+    _entity_access: 'person.edit'
+
+entity.person.delete_form:
+  path: '/person/{person}/delete'
+  defaults:
+    _entity_form: person.delete
+    _title: 'Delete person'
+  requirements:
+    _entity_access: 'person.delete'
+
+entity.person_term.term_settings:
+  path: 'admin/structure/person_term_settings'
+  defaults:
+    _form: '\Drupal\person\Form\PersonSettingsForm'
+    _title: 'Person Settings'
+  requirements:
+    _permission: 'administer person entity'
