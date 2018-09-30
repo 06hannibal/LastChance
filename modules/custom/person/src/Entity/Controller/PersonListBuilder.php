@@ -98,7 +98,7 @@ class PersonListBuilder extends EntityListBuilder {
   public function buildRow(EntityInterface $entity) {
     /* @var $entity \Drupal\person\Entity\Person */
     $row['id'] = $entity->id();
-    $row['title'] = Link::createFromRoute($entity->title->value, 'entity.person.canonical', ['person' => $entity->id(),]);
+    $row['title'] = Link::createFromRoute(t($entity->title->value), 'entity.person.canonical', ['person' => $entity->id(),]);
     $row['age'] = $entity->age->value;
     $row['body'] = html_entity_decode(strip_tags($entity->body->value));
     $term = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->load($entity->get('department')->target_id);

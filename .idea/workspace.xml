@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e90871e-dd15-4b79-8b65-71180012a79a" name="Default Changelist" comment="" />
+    <list default="true" id="2e90871e-dd15-4b79-8b65-71180012a79a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/person/src/Entity/Controller/PersonListBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/person/src/Entity/Controller/PersonListBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/lastchance_theme/.sass-cache/e69a32c4f48ccba1143ef1656901d54044eaad8b/page.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/lastchance_theme/.sass-cache/e69a32c4f48ccba1143ef1656901d54044eaad8b/page.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/lastchance_theme/css/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/lastchance_theme/css/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/lastchance_theme/sass/page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/lastchance_theme/sass/page.scss" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +36,7 @@
     <session id="411954124">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="2" />
@@ -52,23 +58,24 @@
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.42" value="1" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="70" />
+          <entry key="css" value="71" />
           <entry key="ini" value="1" />
           <entry key="install" value="7" />
           <entry key="js" value="35" />
           <entry key="json" value="3" />
           <entry key="map" value="1" />
           <entry key="module" value="32" />
-          <entry key="php" value="167" />
+          <entry key="php" value="168" />
           <entry key="png" value="4" />
           <entry key="rb" value="8" />
           <entry key="sass" value="3" />
-          <entry key="scss" value="44" />
+          <entry key="scss" value="45" />
           <entry key="svg" value="36" />
           <entry key="theme" value="33" />
           <entry key="twig" value="45" />
@@ -78,14 +85,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="70" />
+          <entry key="CSS" value="71" />
           <entry key="Image" value="4" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="35" />
-          <entry key="PHP" value="239" />
+          <entry key="PHP" value="240" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="SCSS" value="44" />
+          <entry key="SCSS" value="45" />
           <entry key="SVG" value="36" />
           <entry key="Sass" value="3" />
           <entry key="SourceMap" value="1" />
@@ -100,8 +107,8 @@
           <entry key="install" value="44" />
           <entry key="js" value="936" />
           <entry key="module" value="452" />
-          <entry key="php" value="5164" />
-          <entry key="scss" value="498" />
+          <entry key="php" value="5207" />
+          <entry key="scss" value="525" />
           <entry key="theme" value="1170" />
           <entry key="twig" value="1305" />
           <entry key="yml" value="386" />
@@ -112,9 +119,9 @@
           <entry key="CSS" value="958" />
           <entry key="HTML" value="1" />
           <entry key="JavaScript" value="936" />
-          <entry key="PHP" value="6829" />
+          <entry key="PHP" value="6872" />
           <entry key="PLAIN_TEXT" value="24" />
-          <entry key="SCSS" value="498" />
+          <entry key="SCSS" value="525" />
           <entry key="Twig" value="1305" />
           <entry key="YAML" value="386" />
         </counts>
@@ -128,20 +135,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/custom/lastchance_theme/sass/page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="157" column="17" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="17" />
+            <state relative-caret-position="424">
+              <caret line="164" column="14" selection-start-line="164" selection-start-column="14" selection-end-line="164" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/custom/person/src/Entity/Controller/PersonListBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+            <state relative-caret-position="322">
+              <caret line="97" column="53" lean-forward="true" selection-start-line="97" selection-start-column="53" selection-end-line="97" selection-end-column="53" />
               <folding>
                 <element signature="e#133#172#0#PHP" expanded="true" />
               </folding>
@@ -261,9 +268,9 @@
         <option value="$PROJECT_DIR$/modules/custom/person/src/Form/PersonForm.php" />
         <option value="$PROJECT_DIR$/modules/custom/person/src/Form/PersonSettingsForm.php" />
         <option value="$PROJECT_DIR$/modules/custom/person/src/Entity/Person.php" />
+        <option value="$PROJECT_DIR$/sites/default/files/sync/taxonomy.vocabulary.department.yml" />
         <option value="$PROJECT_DIR$/modules/custom/person/src/Entity/Controller/PersonListBuilder.php" />
         <option value="$PROJECT_DIR$/themes/custom/lastchance_theme/sass/page.scss" />
-        <option value="$PROJECT_DIR$/sites/default/files/sync/taxonomy.vocabulary.department.yml" />
       </list>
     </option>
   </component>
@@ -370,6 +377,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -380,28 +388,47 @@
             <path>
               <item name="LastChance" type="b2602c69:ProjectViewProjectNode" />
               <item name="LastChance" type="462c0819:PsiDirectoryNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LastChance" type="b2602c69:ProjectViewProjectNode" />
               <item name="LastChance" type="462c0819:PsiDirectoryNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LastChance" type="b2602c69:ProjectViewProjectNode" />
               <item name="LastChance" type="462c0819:PsiDirectoryNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="person" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LastChance" type="b2602c69:ProjectViewProjectNode" />
               <item name="LastChance" type="462c0819:PsiDirectoryNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="sync" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="person" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LastChance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LastChance" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="person" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LastChance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LastChance" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="person" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LastChance" type="b2602c69:ProjectViewProjectNode" />
@@ -433,7 +460,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,10 +473,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/custom" />
       <recent name="$PROJECT_DIR$/modules/custom/person/src" />
       <recent name="$PROJECT_DIR$/modules/custom/person/src/Entity/Controller" />
       <recent name="$PROJECT_DIR$/modules/custom/person" />
-      <recent name="$PROJECT_DIR$/modules/custom" />
       <recent name="$PROJECT_DIR$/modules/custom/menu_element/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -567,18 +593,19 @@
       <workItem from="1537982863687" duration="665000" />
       <workItem from="1538027888825" duration="1068000" />
       <workItem from="1538245247417" duration="1680000" />
-      <workItem from="1538250184034" duration="15518000" />
+      <workItem from="1538250184034" duration="15799000" />
+      <workItem from="1538268350483" duration="926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="406624000" />
+    <option name="totallyTimeSpent" value="407831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49615383" visible="true" weight="0.26237234" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49615383" visible="true" weight="0.2670856" />
       <window_info id="Structure" order="1" sideWeight="0.50384617" side_tool="true" weight="0.29772192" />
       <window_info id="Gulp" order="2" sideWeight="0.5046296" side_tool="true" weight="0.25373134" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -593,7 +620,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5011783" side_tool="true" weight="0.32919255" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.19099379" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.19099379" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -629,13 +656,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/custom/registration_menu/src/Form/FormLogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/load_content/load_content.module">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -806,24 +826,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/dictionary/src/Plugin/Block/TranslatorSearchBlock.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/dictionary/src/Entity/Controller/TermListBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-547" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/person/person.links.menu.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/dictionary/src/Form/TermForm.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/dictionary/src/Plugin/Block/TranslatorSearchBlock.php" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/dictionary/src/Entity/Controller/TermListBuilder.php" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/dictionary/src/Form/TermForm.php" />
     <entry file="file://$PROJECT_DIR$/modules/custom/person/person.links.task.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -842,16 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#33#79#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/person/src/Entity/Controller/PersonListBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -859,10 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding>
-            <element signature="e#6#68#0#PHP" expanded="true" />
-            <element signature="e#105#146#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -870,10 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-          <folding>
-            <element signature="e#7#75#0#PHP" expanded="true" />
-            <element signature="e#112#164#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,10 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#7#95#0#PHP" expanded="true" />
-            <element signature="e#127#163#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -899,10 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#6#76#0#PHP" expanded="true" />
-            <element signature="e#113#143#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -920,9 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="158" column="23" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="23" />
-          <folding>
-            <element signature="e#100#141#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -933,13 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/lastchance_theme/sass/page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="157" column="17" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/files/sync/taxonomy.vocabulary.department.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -947,13 +916,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/examples/css/examples.icons.css" />
     <entry file="file://$PROJECT_DIR$/modules/custom/person/src/Entity/Controller/PersonListBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        <state relative-caret-position="322">
+          <caret line="97" column="53" lean-forward="true" selection-start-line="97" selection-start-column="53" selection-end-line="97" selection-end-column="53" />
           <folding>
             <element signature="e#133#172#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/lastchance_theme/sass/page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="164" column="14" selection-start-line="164" selection-start-column="14" selection-end-line="164" selection-end-column="14" />
         </state>
       </provider>
     </entry>

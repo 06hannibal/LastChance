@@ -218,7 +218,7 @@ a:hover, .link:hover {
 }
 
 /* line 156, ../sass/page.scss */
-.field__item {
+.field--name-title {
   font-size: 2.35em;
   color: #f70000;
 }
@@ -226,4 +226,10 @@ a:hover, .link:hover {
 /* line 160, ../sass/page.scss */
 .field--type-image {
   max-width: 30%;
+}
+
+/* line 163, ../sass/page.scss */
+.person-add-form div.field--name-title {
+  font-size: 1em;
+  color: #333;
 }
