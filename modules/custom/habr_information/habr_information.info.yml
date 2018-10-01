@@ -1,0 +1,7 @@
+name: Habr Information
+description: Print the last 10 items from habr.com.
+package: Custom
+
+type: module
+# core: 8.x
+core: 8.x

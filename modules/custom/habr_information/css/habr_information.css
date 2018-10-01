@@ -1,0 +1,25 @@
+.habr {
+    list-style-type: none;
+}
+.habr hr {
+    border: none;
+    background-color: #d7e9fa;
+    color: #d7e9fa;
+    height: 5px;
+}
+.img-information {
+    max-width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.habr-information {
+    font-size: 20px;
+    line-height: 30px;
+}
+.description-information,.data-information {
+    color: #d7e9fa;
+}
+.habr-item:hover {
+    background-color: #d7e9fa;
+}

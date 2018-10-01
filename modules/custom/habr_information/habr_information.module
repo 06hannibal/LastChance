@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function habr_information_theme() {
+
+  return [
+    'habr_information' => [
+      'variables' => [
+        'general_information' => NULL,
+        'headers' => NULL,
+        'rows' => NULL,
+      ],
+    ],
+  ];
+}

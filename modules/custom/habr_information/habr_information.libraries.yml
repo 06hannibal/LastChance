@@ -1,0 +1,4 @@
+habr_information:
+  css:
+    theme:
+      css/habr_information.css: {}

@@ -1,0 +1,26 @@
+uuid: a563c179-9093-4b37-987a-f4d816952622
+langcode: en
+status: true
+dependencies:
+  module:
+    - habr_information
+    - system
+  theme:
+    - lastchance_theme
+id: habrinformation
+theme: lastchance_theme
+region: sidebar
+weight: -6
+provider: null
+plugin: habr_information
+settings:
+  id: habr_information
+  label: 'Habr Information'
+  provider: habr_information
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

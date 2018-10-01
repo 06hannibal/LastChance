@@ -1,0 +1,22 @@
+<ul class="habr">
+    {% for information in general_information %}
+      <li class="img-information">
+        <a href="{{ information['link_image'] }}"><img src="{{ information['url_image'] }}"></a>
+      </li>
+      <li class="habr-information">
+        <h2><a href="{{ information['link'] }}">{{ information['title'] }}</a></h2>
+      </li>
+      <li class="description-information">
+        <h4>{{ information['description'] }}</h4>
+      </li>
+      <li class="data-information">
+        Дата публикации:{{ information['pubDate'] }}
+      </li>
+    {% endfor %}
+  <hr>
+  <li class="habr-sabmenu">
+    {% for row in rows %}
+      <h2 class="habr-item"><a href="{{ row['link'] }}">{{ row['title'] }}</a></h2>
+    {% endfor %}
+  </li>
+</ul>
