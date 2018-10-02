@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e90871e-dd15-4b79-8b65-71180012a79a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/modules/custom/clock_block/css/clock_block.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/clock_block/css/clock_block.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/clock_block/templates/clock-block.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/clock_block/templates/clock-block.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -145,12 +145,12 @@
         <entry file="file://$PROJECT_DIR$/modules/custom/clock_block/templates/clock-block.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/custom/clock_block/css/clock_block.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -168,11 +168,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/custom/clock_block/clock_block.libraries.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="120">
+              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -298,9 +298,9 @@
         <option value="$PROJECT_DIR$/modules/custom/menu_element/js/moment/moment-with-locales.min.js" />
         <option value="$PROJECT_DIR$/modules/custom/menu_element/menu_element.libraries.yml" />
         <option value="$PROJECT_DIR$/modules/custom/clock_block/clock_block.libraries.yml" />
-        <option value="$PROJECT_DIR$/modules/custom/clock_block/templates/clock-block.html.twig" />
         <option value="$PROJECT_DIR$/modules/custom/clock_block/js/clock_block.js" />
         <option value="$PROJECT_DIR$/modules/custom/clock_block/css/clock_block.css" />
+        <option value="$PROJECT_DIR$/modules/custom/clock_block/templates/clock-block.html.twig" />
       </list>
     </option>
   </component>
@@ -587,12 +587,12 @@
       <workItem from="1538268350483" duration="926000" />
       <workItem from="1538373764526" duration="28551000" />
       <workItem from="1538412891849" duration="8511000" />
-      <workItem from="1538460607714" duration="10460000" />
+      <workItem from="1538460607714" duration="11441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="455353000" />
+    <option name="totallyTimeSpent" value="456334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
@@ -921,24 +921,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/clock_block/clock_block.libraries.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/menu_element/js/menu_element.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/clock_block/templates/clock-block.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -953,6 +939,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/clock_block/templates/clock-block.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/clock_block/clock_block.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>

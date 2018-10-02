@@ -3,8 +3,4 @@ clock_block:
     theme:
       css/clock_block.css: {}
   js:
-    js/moment/moment.min.js: {}
-    js/moment/moment-with-locales.min.js: {}
     js/clock_block.js: {}
-  dependencies:
-    - core/jquery
