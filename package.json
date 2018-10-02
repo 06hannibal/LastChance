@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "balanced-match": "^1.0.0",
+    "moment-timezone": "^0.5.21",
     "require-dir": "^1.0.0"
   }
 }

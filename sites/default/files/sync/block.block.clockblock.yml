@@ -1,0 +1,26 @@
+uuid: f3b2c095-6baa-4d86-a221-9805abd47c2c
+langcode: en
+status: true
+dependencies:
+  module:
+    - clock_block
+    - system
+  theme:
+    - lastchance_theme
+id: clockblock
+theme: lastchance_theme
+region: sidebar
+weight: -8
+provider: null
+plugin: clock_block
+settings:
+  id: clock_block
+  label: 'Clock Block'
+  provider: clock_block
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

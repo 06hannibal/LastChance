@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function clock_block_theme() {
+
+  return [
+    'clock_block' => [
+      'variables' => [],
+    ],
+  ];
+}
